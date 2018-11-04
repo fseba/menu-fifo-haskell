@@ -1,3 +1,13 @@
+------------------------------------------------------------------------------
+-- Modulo      :  Menu_FIFO_Haskell
+-- Programador :  Sebastián Uriel Flores
+-- Estabilidad :  experimental
+-- Portabilidad:  experimental
+--
+-- Programacion Avanzada en Haskell - Ing. Informática. 2018
+-- 
+-----------------------------------------------------------------------------    
+
 {-# LANGUAGE OverloadedStrings #-}
 
 module Menu_FIFO_Haskell where

@@ -1,13 +1,12 @@
------------------------------------------------------------------------------
---  
--- Module      :  Categories
--- Maintainer  :  .....
--- Stability   :  experimental
--- Portability :  experimental
+------------------------------------------------------------------------------
+-- Modulo      :  Model.Categories
+-- Programador :  Sebastián Uriel Flores
+-- Estabilidad :  experimental
+-- Portabilidad:  experimental
 --
+-- Programacion Avanzada en Haskell - Ing. Informática. 2018
 -- 
---  
------------------------------------------------------------------------------
+-----------------------------------------------------------------------------    
 module Model.Categories where
 
 -- 1) Natural isomorphisms --------------------------------------------------

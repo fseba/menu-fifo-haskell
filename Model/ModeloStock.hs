@@ -1,11 +1,11 @@
 ------------------------------------------------------------------------------
--- Modulo      :  ModeloStock
--- Programador :  
+-- Modulo      :  Model.ModeloStock
+-- Programador :  Sebastián Uriel Flores
 -- Estabilidad :  experimental
 -- Portabilidad:  experimental
 --
 -- Programacion Avanzada en Haskell - Ing. Informática. 2018
--- Este Modulo implementa Colas/Filas Finitas (FIFO)
+-- Este Modulo implementa los tipos ItemStock y Proveedor
 -----------------------------------------------------------------------------         
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE RecordWildCards #-}

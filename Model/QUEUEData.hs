@@ -1,12 +1,11 @@
 ------------------------------------------------------------------------------
--- | 
--- Module      :  QUEUEData
--- Maintainer  :  
--- Stability   :  experimental
--- Portability :  experimental
+-- Modulo      :  Model.QUEUEData
+-- Programador :  Sebastián Uriel Flores
+-- Estabilidad :  experimental
+-- Portabilidad:  experimental
 --
---Optativa Haskell en Cs. de la Comp . Lab 2014
--- This module implements finite Queue (LIFO structure)  
+-- Programacion Avanzada en Haskell - Ing. Informática. 2018
+-- Este Modulo implementa Colas/Filas Finitas (FIFO)
 -----------------------------------------------------------------------------         
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE RecordWildCards #-}
