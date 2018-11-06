@@ -66,7 +66,7 @@ instance FromJSON ItemStock where
     item <- i .: "item"
     marca <- i .: "marca"        
     rubro <- i .: "rubro"
-    proveedor <- i .: "proveedor"
+    proveedor <- i .: "codigo_proveedor"
     uMed <- i .: "u_med"
     cantExistente <- i .: "cant_existente"
     vMin <- i .: "v_min"
@@ -81,7 +81,7 @@ instance ToJSON ItemStock where
     "item" .= item,
     "marca" .= marca,
     "rubro" .= rubro,
-    "proveedor" .= proveedor,
+    "codigo_proveedor" .= proveedor,
     "u_med" .= uMed,
     "cant_existente" .= cantExistente,
     "v_min" .= vMin,

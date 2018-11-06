@@ -177,8 +177,7 @@ addItem items fileName = do
       rubItem <- getLine
       provItem <- getLineUntil "*   Ingrese el código del Proveedor del Item -->   " :: IO Int      
       putStr "*   Ingrese la unidad de medida del Item -->   "
-      uMedItem <- getLine
-      putStr "*   Ingrese la cantidad existente del Item -->   "
+      uMedItem <- getLine      
       cantExItem <- getLineUntil "*   Ingrese la cantidad existente del Item -->   " :: IO Int      
       vMinItem <- getLineUntil "*   Ingrese el valor mínimo del Item -->   " :: IO Int      
       vMaxItem <- getLineUntil "*   Ingrese el valor máximo del Item -->   " :: IO Int            
